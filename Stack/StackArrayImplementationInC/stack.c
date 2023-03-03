@@ -10,6 +10,7 @@ int Push(StackEntry e, stack *ps)
 {
     if (ps->top == MAXSTACK)
     {
+        printf("stack is fulln");
         return 0;
     }
     else
@@ -22,6 +23,7 @@ int StackFull(stack *ps)
 {
     if (ps->top == MAXSTACK)
     {
+        printf("stack is full");
         return 1;
     }
     else

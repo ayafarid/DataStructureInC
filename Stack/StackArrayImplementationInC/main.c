@@ -20,6 +20,10 @@ int main()
     print(e);
     Push(e, &s);
     Push(e, &s);
+    Push(e, &s);
+    Push(e, &s);
+    Push(e, &s);
+    Push(e, &s);
     int x;
     x = StackSize(&s);
     printf("%d\n", x);
