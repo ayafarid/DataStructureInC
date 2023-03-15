@@ -41,14 +41,13 @@ int Pop(StackEntry *e, Stack *ps)
 {
     if (ps->top == 0)
     {
-        *e=-1;
         printf("stack is empty!\n");
         return 0;
     }
     else
     {
         ps->top--;
-        *e = (int)ps->entry[ps->top];
+        *e = ps->entry[ps->top];
         return 1;
     }
 }
@@ -67,7 +66,6 @@ int StackTop(StackEntry *e, Stack *ps)
 {
     if (ps->top == 0)
     {
-        *e=-1;
         printf("stack is empty!\n");
         return 0;
     }

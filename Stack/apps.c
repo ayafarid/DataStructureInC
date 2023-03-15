@@ -140,10 +140,6 @@ double EvaluatePostfix(char expr[]){
     Pop(&val, &s);
     return val;
 }
-int IsDigit(char c){
-   return(c>='0' && c<='9');
-}
-
 double Oper(char c, double op1, double op2){
    switch(c){
 	case '+': return(op1+op2);

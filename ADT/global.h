@@ -14,9 +14,9 @@ typedef struct elementtype
 } ElementType;
 #define MAXELEMENTS 50
 
-typedef int StackEntry;
+typedef ElementType StackEntry;
 #define MAXSTACk MAXELEMENTS
 
-typedef int QueueEntry;
+typedef ElementType QueueEntry;
 #define MAXQUEUE MAXELEMENTS
 #endif
